@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="footer-main"><p class="footer-main-title">{{ message }}</p><a
-      href="https://github.com/malvser" target="_blank" class="footer-main-link">Github</a></div>
+      href="https://github.com/malvser/SpringBoot-vue" target="_blank" class="footer-main-link">Github</a></div>
 
     <div class="layout-copy footdoc">
 
