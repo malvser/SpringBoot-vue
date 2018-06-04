@@ -14,15 +14,7 @@ import org.springframework.context.ApplicationContextAware;
 
 
 
-/*
-    Resolve due to @Autowired lead to NullPointerException problem
 
-    Description：
-    1. It's limited to general class to invoke spring bean Object.
-    2. And This makes the sub package easy to scan by spring boot.
-
-                                                      ———— @Boyle.gu
-*/
 @Component
 class SpringUtil implements ApplicationContextAware {
 

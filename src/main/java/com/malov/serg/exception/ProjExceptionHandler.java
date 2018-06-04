@@ -1,8 +1,6 @@
 package com.malov.serg.exception;
 
-/**
- * Created by gubaoer on 17/7/2.
- */
+
 
 import com.malov.serg.dao.ErrorInfo;
 import org.springframework.web.bind.annotation.ControllerAdvice;

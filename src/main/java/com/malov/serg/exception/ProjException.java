@@ -1,8 +1,5 @@
 package com.malov.serg.exception;
 
-/**
- * Created by gubaoer on 17/7/2.
- */
 
 
 public class ProjException extends Exception {

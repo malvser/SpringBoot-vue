@@ -1,8 +1,6 @@
 package com.malov.serg.dao;
 
-/**
- * Created by gubaoer on 17/7/2.
- */
+
 
 public class ErrorInfo<T> {
 
