@@ -69,13 +69,13 @@
             <el-table-column
                   prop="createDate"
                   label="createDate"
-                  width="300"
+                  width="200"
                   :formatter="formatter">
             </el-table-column>
             <el-table-column
                   fixed="right"
                   label="Operation"
-                  width="100">
+                  width="160">
                 <template scope="scope">
                     <el-button @click="editItem(scope.$index, tableData)" type="text" size="large">Редактировать</el-button>
                 </template>

@@ -1,7 +1,7 @@
 <template>
     <el-dialog title="Edit" v-model="dialogFormVisible" :close-on-click-modal="false" :show-close="false">
         <el-form :model="form">
-            <el-form-item label="item_id" :label-width="formLabelWidth">
+            <el-form-item label="id" :label-width="formLabelWidth">
                 <el-input :disabled="true" v-model="form.id" auto-complete="off"></el-input>
             </el-form-item>
 <!--
