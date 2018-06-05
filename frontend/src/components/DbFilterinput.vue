@@ -13,12 +13,12 @@
             </el-select>
         </el-form-item>
 
-        <el-form-item v-if='formInline.sex' label="Описание">
-            <el-input v-model="formInline.secondName" placeholder="Введите первые буквы Фамилии"></el-input>
+        <el-form-item v-if='formInline.firstName' label="Описание">
+            <el-input v-model="formInline.secondName" placeholder="Первые буквы Фамилии"></el-input>
         </el-form-item>
 
-        <el-form-item v-else='formInline.sex' label="Описание">
-            <el-input v-model="formInline.secondName" disabled placeholder="Введите первые буквы Фамилии"></el-input>
+        <el-form-item v-else='formInline.firstName' label="Описание">
+            <el-input v-model="formInline.secondName" disabled placeholder="Первые буквы Фамилии"></el-input>
         </el-form-item>
 
     </el-form>
